@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Website</title>
+</head>
+<body>
+    <div id="Home">
+        <div class="Links">
+        <a href="#Home" class="lk" id="btn1">Home</a>
+        <a href="#Know-Me" class="lk" id="btn2">Know Me</a>
+        <a href="#My-Skills" class="lk" id="btn3">My Skills</a>
+        <a href="#Contact-Me" class="lk" id="btn4">Get In Touch</a>
+        </div>
+        <input type="text" placeholder="Type what you want">
+        <button id="btn">Search</button>
+
+        <div id="arrow1" class="arrows-down"></div>
+    </div>
+
+    <div id="Know-Me">
+        <div id="imgg">
+          <img src="img/me.jpg" alt="">
+        </div>
+        <div id="Me">
+          <h1>Mohamed Sadok Masghouni</h1>
+          <h4>Networking and communication Engineering Student in INSAT</h4>
+          <p>
+            Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.
+            <br>
+            Among Web professionals, "Web development" usually refers to the main non-design aspects of building Web sites: writing markup and coding.Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.</p>
+            <a href="#Contact-Me" id="lk">Get In Touch</a>
+        </div>
+
+        <div id="arrow2" class="arrows-down"></div>
+    </div>
+
+    <div id="My-Skills">
+        <h2 id="title">My Skill Set</h2>
+        <div id="container">
+         <div class="program" id="HTML">
+            <h2>HTML</h2>
+            <img src="img/html.png" alt="">
+            <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+         </div>
+
+         <div class="program">
+            <h2>CSS</h2>
+            <img src="img/css.png" alt="">
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+         </div>
+
+         <div class="program">
+            <h2>Java Script</h2>
+            <img src="img/js.png" alt="">
+            <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</p>
+         </div>
+        </div>
+
+        <div id="arrow3" class="arrows-down"></div>
+    </div>
+
+    <div id="Contact-Me">
+        <div class="overlay">
+            <div>
+                <h1>Contact Me</h1>
+                <p>Send me a message and I'll get back to you as soon as I can.</p>
+                <form action="https://formspree.io/f/xleaqayv" method="POST">
+                    <input name="name" type="text" id="name" placeholder="Your name" required>
+                    <input name="_replyto" type="text" id="email" placeholder="Your email" required>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Type your message here..." required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="arrow-up"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
